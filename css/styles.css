@@ -4,11 +4,11 @@ h1 {
   text-align: center;
 }
 
-p {
+p.listOne {
   font-family: sans-serif;
 }
 
-ul {
+p.listTwo {
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
