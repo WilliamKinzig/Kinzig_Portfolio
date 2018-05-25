@@ -1,5 +1,10 @@
+img{
+  float: left;
+  padding: 8px;
+}
+
 h1 {
-  color: #0000ff;
+  color: #0a5b3b;
   font-weight: bold;
   text-align: center;
 }
@@ -8,12 +13,16 @@ h1 {
   color: #c5d6ca
 }
 
-
-
-.myFont{
-  font-weight: bold;
+.dPen{
   font-style: italic;
-  font-size: 20px;
+  color: orange;
+}
+
+
+.myFonty{
+  font-weight: bold;
+  color: #abc4a1;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -24,29 +33,24 @@ h1 {
   line-height: 25px;
 }
 
-.myMonsterFont{
-  font-weight: bolder;
+.myFont{
+  color: 0a5b3b
+  font-weight: bold;
   font-style: italic;
   font-size: 25px;
   line-height: 25px;
   text-align: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-}
 
-.my_pgBordersBlack {
-  border: 10px solid black;
+.my_pgBordersOuter {
+  border: 10px solid #0a3859;
   padding: 5px;
   margin: 5px;
   background-color: light green;
 }
 
-.my_pgBordersBlue {
+.my_pgBordersInner {
   border: 10px solid #83a5db;
   padding: 5px;
   margin: 5px;
