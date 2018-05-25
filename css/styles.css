@@ -4,14 +4,35 @@ h1 {
   text-align: center;
 }
 
-p.listOne {
+p.myFont {
   font-family: sans-serif;
 }
 
-p.listTwo {
+.myFont{
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
   line-height: 25px;
+}
 
+.mySmallerFont{
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+.myMonsterFont{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
