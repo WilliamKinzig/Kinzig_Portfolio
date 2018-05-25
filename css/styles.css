@@ -4,9 +4,11 @@ h1 {
   text-align: center;
 }
 
-p.myFont {
-  font-family: sans-serif;
+.bgColor{
+  color: #c5d6ca
 }
+
+
 
 .myFont{
   font-weight: bold;
@@ -34,5 +36,19 @@ p.myFont {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 65%;
+}
+
+.my_pgBordersBlack {
+  border: 10px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: light green;
+}
+
+.my_pgBordersBlue {
+  border: 10px solid #83a5db;
+  padding: 5px;
+  margin: 5px;
+  background-color: light green;
 }
